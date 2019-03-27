@@ -1,6 +1,6 @@
 %NProcShared=4
 %Chk=lutein-s0-geom.chk
-#n CAM-B3LYP/6-31G(d) Opt
+#n CAM-B3LYP/6-31G(d,p) Opt
 
  lutein-s0-geom
 

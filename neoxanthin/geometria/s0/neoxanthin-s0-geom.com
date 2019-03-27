@@ -1,6 +1,6 @@
 %NProcShared=4
 %Chk=neoxanthin-s0-geom.chk
-#n CAM-B3LYP/6-31G(d) Opt
+#n CAM-B3LYP/6-31G(d,p) Opt
 
  neoxanthin-s0-geom
 
