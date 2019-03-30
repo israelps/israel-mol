@@ -1,5 +1,6 @@
 %NProcShared=4
 %Chk=zeaxanthin-s0-geom.chk
+%Mem=4GB
 #n CAM-B3LYP/6-31G(d,p) Opt
 
  zeaxanthin-s0-geom

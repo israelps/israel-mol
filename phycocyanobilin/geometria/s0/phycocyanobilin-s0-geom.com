@@ -1,5 +1,6 @@
 %NProcShared=4
 %Chk=phycocyanobilin-s0-geom.chk
+%Mem=4GB
 #n B3LYP/SVP Opt
 
  phycocyanobilin-s0-geom
