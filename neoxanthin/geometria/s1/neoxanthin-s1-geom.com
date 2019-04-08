@@ -1,7 +1,7 @@
 %NProcShared=4
 %Chk=neoxanthin-s1-geom.chk
 %Mem=4GB
-#n CAM-B3LYP/6-31G(d,p) Opt
+#n CAM-B3LYP/6-31G(d,p) Opt td
 
  neoxanthin-s1-geom
 
