@@ -1,6 +1,7 @@
 %NProcShared=4
 %Chk=lutein-s1-geom.chk
-#n CAM-B3LYP/6-31G(d,p) Opt td
+%Mem=5GB
+#n CAM-B3LYP/6-31G(d,p) Opt Freq=savenormalmodes td
 
  lutein-s1-geom
 
