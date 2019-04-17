@@ -1,4 +1,4 @@
-%NProcShared=8
+%NProcShared=4
 %Chk=chlorophyll-a-s1-freq.chk
 $Mem=6GB
 #n B3LYP/SVP Freq=savenormalmodes
