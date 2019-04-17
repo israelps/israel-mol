@@ -6,6 +6,7 @@
 #n CAM-B3LYP/6-31G(d,p) Opt td
 >>>>>>> 15451b892473ef8e062c1062238f820a6b8f3719
 
+
  zeaxanthin-s1-geom
 
 0 1
