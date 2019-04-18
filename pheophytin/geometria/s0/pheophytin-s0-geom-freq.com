@@ -1,7 +1,7 @@
-%NProcShared=8
+%NProcShared=4
 %Chk=pheophytin-s0-geom-freq.chk
 %Mem=6GB
-#n B3LYP/TZVP Opt Freq=savenormalmodes
+#n B3LYP/SVP Opt Freq=savenormalmodes
 
  pheophytin-s0-geom-freq
 
