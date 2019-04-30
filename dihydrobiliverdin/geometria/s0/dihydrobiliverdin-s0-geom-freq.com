@@ -1,7 +1,7 @@
-%NProcShared=8
+%NProcShared=4
 %Chk=dihydrobiliverdin-s0-geom-freq.chk
-%Mem=6GB
-#n B3LYP/aug-cc-pV6Z Opt Freq=savenormalmodes
+%Mem=7GB
+#n B3LYP/SVP Opt Freq=savenormalmodes
 
  dihydrobiliverdin-s0-geom-freq.com
 
