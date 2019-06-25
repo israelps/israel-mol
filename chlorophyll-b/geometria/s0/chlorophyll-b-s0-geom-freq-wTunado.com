@@ -1,5 +1,6 @@
 %NProcShared=4
 %Chk=chlorophyll-b-s0-geom-freq-wTunado.chk
+%Mem=6GB
 #n iop(3/107=0140000000,3/108=0140000000) CAM-B3LYP/6-31G(d,p) Opt Freq=savenormalmodes
 
  chlorophyll-b-s0-geom-freq-wTunado
@@ -141,4 +142,3 @@ H          8.98884        2.58089       -1.63072
 H         11.59523       -0.47783        0.06012
 H         10.80637        0.67731        1.16091
 H         12.07550        1.23107        0.04421
-
