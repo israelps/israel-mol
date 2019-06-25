@@ -1,7 +1,10 @@
 %NProcShared=4
 %Mem=4GB
 #n CAM-B3LYP/6-31G(d,p) Opt Freq=savenormalmodes td
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5fd98e6026a2a0b1eb9b204cbbe8d0b5cd655bbb
 
 
  zeaxanthin-s1-geom
