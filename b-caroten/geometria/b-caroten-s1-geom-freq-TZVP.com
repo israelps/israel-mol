@@ -1,6 +1,6 @@
 %NProcShared=4
 %Chk=b-caroten-s1-geom-freq-TZVP.chk
-#n PBE1PBE/Gen Opt Freq=savenormalmodes
+#n PBE1PBE/Gen Td Opt Freq=savenormalmodes
 
  b-caroten-s1-geom-freq-TZVP
 
