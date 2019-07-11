@@ -1,5 +1,5 @@
 %NProcShared=4
-%Mem=4GB
+%Mem=3GB
 %Chk=cla-s0-wb97xd-tzvp.chk
 #n wB97XD/Gen Opt
 
