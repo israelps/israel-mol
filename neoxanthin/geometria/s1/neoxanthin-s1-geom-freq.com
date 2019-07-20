@@ -1,7 +1,7 @@
 %NProcShared=4
 %Chk=neoxanthin-s1-geom-freq.chk
-%Mem=4GB
-#n CAM-B3LYP/6-31G(d,p) Opt Freq=savenormalmodes td
+%Mem=3GB
+#n CAM-B3LYP/6-31G(d,p) Opt=Restart Freq=savenormalmodes Td
 
  neoxanthin-s1-geom-freq
 
