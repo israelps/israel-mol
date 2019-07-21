@@ -103,7 +103,5 @@ H         -1.47911       -0.04987       -0.06274
 H          2.06455       -1.43950       -0.23436
 H          0.11489       -2.66958       -0.50139
 
-@home/padawan/israel-mol/basis-set/tzvpp.gbs/H
-****
-@home/padawan/israel-mol/basis-set/tzvpp.gbs/C
+@/home/padawan/israel-mol/basis-set/tzvpp.gbs
 
