@@ -1,6 +1,7 @@
 %NProcShared=4
+%Mem=8GB
 %Chk=b-carotene-s0-geom-freq-TZVP.chk
-#n PBE1PBE/Gen Opt Freq=savenormalmodes
+#n PBE1PBE/Gen Opt=Restart Freq=savenormalmodes
 
  b-caroten-s0-geom-freq-TZVP
 
