@@ -1,6 +1,6 @@
 %NProcShared=12
 %Chk=b-carotene-s0-wb97xd-tzvpp.chk
-%Mem=12GB
+%Mem=6GB
 #n wB97XD/Gen Opt
 
  b-caroten-s0-wb97xd-tzvpp
