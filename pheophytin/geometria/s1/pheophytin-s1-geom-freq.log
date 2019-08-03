@@ -2,8 +2,8 @@
  Input=pheophytin-s1-geom-freq.com
  Output=pheophytin-s1-geom-freq.log
  Initial command:
- /usr/local/g16/l1.exe "/home/padawan/israel-mol/pheophytin/geometria/s1/Gau-69902.inp" -scrdir="/home/padawan/israel-mol/pheophytin/geometria/s1/"
- Entering Link 1 = /usr/local/g16/l1.exe PID=     69904.
+ /usr/local/g16/l1.exe "/home/padawan/israel-mol/pheophytin/geometria/s1/Gau-117695.inp" -scrdir="/home/padawan/israel-mol/pheophytin/geometria/s1/"
+ Entering Link 1 = /usr/local/g16/l1.exe PID=    117697.
   
  Copyright (c) 1988,1990,1992,1993,1995,1998,2003,2009,2016,
             Gaussian, Inc.  All Rights Reserved.
@@ -77,12 +77,14 @@
  
  ******************************************
  Gaussian 16:  ES64L-G16RevA.03 25-Dec-2016
-                26-Jul-2019 
+                 3-Aug-2019 
  ******************************************
- %NProcShared=4
- Will use up to    4 processors via shared memory.
+ %CPU=0-11
+ SetSPE:  set environment variable "MP_BIND" = "yes"
+ SetSPE:  set environment variable "MP_BLIST" = "0,1,2,3,4,5,6,7,8,9,10,11"
+ Will use up to   12 processors via shared memory.
  %Chk=pheophytin-s1-geom-freq.chk
- %Mem=5GB
+ %Mem=12GB
  ------------------------------------------------
  #n B3LYP/SVP Opt=Restart Freq=savenormalmodes Td
  ------------------------------------------------
@@ -93,16 +95,15 @@
  Route:  #n B3LYP/SVP Opt Freq=savenormalmodes td
 
 
- IT PROBABLY IS NOT POSSIBLE FOR A SCIENTIST TO INTERROGATE NATURE 
- FROM A WHOLLY DISINTERESTED VIEWPOINT.
- EVEN IF HE HAS NO PARTICULAR AXE TO GRIND, HE IS LIKELY TO HAVE 
- A DISTINCTIVE WAY OF VIEWING NATURE.
-
-                                                   -- JOHN LOSEE
- Job cpu time:       0 days  0 hours  0 minutes  5.7 seconds.
- Elapsed time:       0 days  0 hours  0 minutes  1.8 seconds.
+     SCHOPENHAUER'S LAW OF ENTROPY
+ IF YOU PUT A SPOONFUL OF WINE IN A BARREL FULL
+ OF SEWAGE, YOU GET SEWAGE.
+ IF YOU PUT A SPOONFUL OF SEWAGE IN A BARREL FULL
+ OF WINE, YOU GET SEWAGE.
+ Job cpu time:       0 days  0 hours  0 minutes 24.9 seconds.
+ Elapsed time:       0 days  0 hours  0 minutes  2.3 seconds.
  File lengths (MBytes):  RWF=    265 Int=      0 D2E=      0 Chk=    743 Scr=      1
- Normal termination of Gaussian 16 at Fri Jul 26 10:11:51 2019.
+ Normal termination of Gaussian 16 at Sat Aug  3 04:14:08 2019.
  Link1:  Proceeding to internal job step number  2.
  ----------------------------------------------------------------------
  #N Geom=AllCheck Guess=TCheck SCRF=Check GenChk RB3LYP TD(FC,Read)/SVP
@@ -1238,7 +1239,7 @@
  Requested convergence on             energy=1.00D-06.
  No special actions if energy rises.
  SCF Done:  E(RB3LYP) =  -2733.62526035     A.U. after    1 cycles
-            NFock=  1  Conv=0.89D-09     -V/T= 2.0114
+            NFock=  1  Conv=0.25D-08     -V/T= 2.0114
  DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
  ExpMin= 1.22D-01 ExpMax= 2.27D+03 ExpMxC= 3.41D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
  HarFok:  IExCor=  205 AccDes= 0.00D+00 IRadAn=         5 IDoV=-2 UseB2=F ITyADJ=14
@@ -1248,7 +1249,7 @@
  NBasis=  1266 NAE=   236 NBE=   236 NFC=    64 NFV=     0
  NROrb=   1202 NOA=   172 NOB=   172 NVA=  1030 NVB=  1030
 
- **** Warning!!: The smallest alpha delta epsilon is  0.88488928D-01
+ **** Warning!!: The smallest alpha delta epsilon is  0.88488927D-01
 
  Orbital symmetries:
        Occupied  (A) (A) (A) (A) (A) (A) (A) (A) (A) (A) (A) (A)
@@ -1361,158 +1362,3 @@
  Convergence on wavefunction:    0.000001000000000
  Iteration     1 Dimension     6 NMult     0 NNew      6
  CISAX will form     6 AO SS matrices at one time.
- Iteration     2 Dimension    12 NMult     6 NNew      6
- Iteration     3 Dimension    18 NMult    12 NNew      6
- Iteration     4 Dimension    24 NMult    18 NNew      6
- Iteration     5 Dimension    26 NMult    24 NNew      2
- ***********************************************************************
- Excited states from <AA,BB:AA,BB> singles matrix:
- ***********************************************************************
- 
- Ground to excited state transition densities written to RWF  633
- Ground to excited state transition electric dipole moments (Au):
-       state          X           Y           Z        Dip. S.      Osc.
-         1        -0.0286     -1.7663     -0.2152      3.1670      0.1621
-         2        -0.6865      0.1908     -0.2324      0.5617      0.0314
-         3        -0.0968     -0.0466     -0.0329      0.0126      0.0009
- Ground to excited state transition velocity dipole moments (Au):
-       state          X           Y           Z        Dip. S.      Osc.
-         1         0.0022      0.1322      0.0167      0.0178      0.1542
-         2         0.0528     -0.0159      0.0178      0.0034      0.0267
-         3         0.0099      0.0058      0.0034      0.0001      0.0009
- Ground to excited state transition magnetic dipole moments (Au):
-       state          X           Y           Z
-         1         0.2468      0.3447     -2.6982
-         2         0.1959      0.2987     -0.2795
-         3        -0.0720      0.0328      0.1227
- Ground to excited state transition velocity quadrupole moments (Au):
-       state          XX          YY          ZZ          XY          XZ          YZ
-         1        -0.0995      0.2546      0.0352     -1.7234     -0.1826      0.0690
-         2        -1.2146     -0.2434      0.0302      0.2035     -0.1980     -0.0160
-         3        -0.0757      0.2656      0.0433     -0.0630      0.0110      0.0275
- <0|del|b> * <b|rxdel|0> + <0|del|b> * <b|delr+rdel|0>
- Rotatory Strengths (R) in cgs (10**-40 erg-esu-cm/Gauss)
-       state          XX          YY          ZZ    R(velocity)    E-M Angle
-         1       -18.3629    -71.5543    100.5425      3.5418       89.82
-         2       -38.9783      3.8043     40.4410      1.7557       88.64
-         3         1.0896      0.6493     -2.4124     -0.2245       93.35
- 1/2[<0|r|b>*<b|rxdel|0> + (<0|rxdel|b>*<b|r|0>)*]
- Rotatory Strengths (R) in cgs (10**-40 erg-esu-cm/Gauss)
-       state          XX          YY          ZZ     R(length)
-         1         4.9912    430.5628   -410.6881      8.2886
-         2        95.1041    -40.2981    -45.9319      2.9580
-         3        -4.9257      1.0803      2.8557     -0.3299
-  1/2[<0|del|b>*<b|r|0> + (<0|r|b>*<b|del|0>)*] (Au)
-       state          X           Y           Z        Dip. S.   Osc.(frdel)
-         1        -0.0001     -0.2336     -0.0036      0.2372      0.1581
-         2        -0.0363     -0.0030     -0.0041      0.0434      0.0290
-         3        -0.0010     -0.0003     -0.0001      0.0013      0.0009
-
- Excitation energies and oscillator strengths:
- 
- Excited State   1:      Singlet-A      2.0897 eV  593.32 nm  f=0.1621  <S**2>=0.000
-     235 -> 238       -0.32565
-     236 -> 237        0.62404
- This state for optimization and/or second-order correction.
- Total Energy, E(TD-HF/TD-DFT) =  -2733.54846684    
- Copying the excited state density for this state as the 1-particle RhoCI density.
- 
- Excited State   2:      Singlet-A      2.2822 eV  543.27 nm  f=0.0314  <S**2>=0.000
-     235 -> 237        0.59781
-     236 -> 238        0.37061
- 
- Excited State   3:      Singlet-A      2.9222 eV  424.29 nm  f=0.0009  <S**2>=0.000
-     234 -> 237        0.69317
- SavETr:  write IOETrn=   770 NScale= 10 NData=  16 NLR=1 NState=    3 LETran=      64.
-          IDoAtm=11111111111111111111111111111111111111111111111111
-          IDoAtm=11111111111111111111111111111111111111111111111111
-          IDoAtm=11111111111111111111111111111111111111
-          Differentiating once with respect to electric field.
-                with respect to dipole field.
-          Differentiating once with respect to nuclear coordinates.
-          There are     1 degrees of freedom in the 1st order CPHF.  IDoFFX=0 NUNeed=     1.
- LinEq1:  Iter=  0 NonCon=     1 RMS=8.86D-04 Max=2.51D-01 NDo=     1
- AX will form     1 AO Fock derivatives at one time.
- LinEq1:  Iter=  1 NonCon=     1 RMS=5.65D-04 Max=1.34D-01 NDo=     1
- LinEq1:  Iter=  2 NonCon=     1 RMS=4.49D-04 Max=8.50D-02 NDo=     1
- LinEq1:  Iter=  3 NonCon=     1 RMS=2.96D-04 Max=7.48D-02 NDo=     1
- LinEq1:  Iter=  4 NonCon=     1 RMS=2.40D-04 Max=3.68D-02 NDo=     1
- LinEq1:  Iter=  5 NonCon=     1 RMS=2.32D-04 Max=3.68D-02 NDo=     1
- LinEq1:  Iter=  6 NonCon=     1 RMS=1.52D-04 Max=2.26D-02 NDo=     1
- LinEq1:  Iter=  7 NonCon=     1 RMS=1.20D-04 Max=1.41D-02 NDo=     1
- LinEq1:  Iter=  8 NonCon=     1 RMS=8.56D-05 Max=9.99D-03 NDo=     1
- LinEq1:  Iter=  9 NonCon=     1 RMS=6.78D-05 Max=5.84D-03 NDo=     1
- LinEq1:  Iter= 10 NonCon=     1 RMS=5.26D-05 Max=5.27D-03 NDo=     1
- LinEq1:  Iter= 11 NonCon=     1 RMS=3.27D-05 Max=4.99D-03 NDo=     1
- LinEq1:  Iter= 12 NonCon=     1 RMS=3.23D-05 Max=8.99D-03 NDo=     1
- LinEq1:  Iter= 13 NonCon=     1 RMS=2.96D-05 Max=7.47D-03 NDo=     1
- LinEq1:  Iter= 14 NonCon=     1 RMS=2.56D-05 Max=3.68D-03 NDo=     1
- LinEq1:  Iter= 15 NonCon=     1 RMS=1.51D-05 Max=1.60D-03 NDo=     1
- LinEq1:  Iter= 16 NonCon=     1 RMS=1.18D-05 Max=1.06D-03 NDo=     1
- LinEq1:  Iter= 17 NonCon=     1 RMS=7.38D-06 Max=1.04D-03 NDo=     1
- LinEq1:  Iter= 18 NonCon=     1 RMS=4.44D-06 Max=4.06D-04 NDo=     1
- LinEq1:  Iter= 19 NonCon=     1 RMS=2.52D-06 Max=2.33D-04 NDo=     1
- LinEq1:  Iter= 20 NonCon=     1 RMS=1.51D-06 Max=1.34D-04 NDo=     1
- LinEq1:  Iter= 21 NonCon=     1 RMS=1.11D-06 Max=1.10D-04 NDo=     1
- LinEq1:  Iter= 22 NonCon=     1 RMS=7.16D-07 Max=7.10D-05 NDo=     1
- LinEq1:  Iter= 23 NonCon=     1 RMS=4.46D-07 Max=3.35D-05 NDo=     1
- LinEq1:  Iter= 24 NonCon=     1 RMS=2.83D-07 Max=2.53D-05 NDo=     1
- LinEq1:  Iter= 25 NonCon=     1 RMS=1.90D-07 Max=1.86D-05 NDo=     1
- LinEq1:  Iter= 26 NonCon=     1 RMS=9.33D-08 Max=7.02D-06 NDo=     1
- LinEq1:  Iter= 27 NonCon=     1 RMS=6.09D-08 Max=5.20D-06 NDo=     1
- LinEq1:  Iter= 28 NonCon=     1 RMS=3.77D-08 Max=4.01D-06 NDo=     1
- LinEq1:  Iter= 29 NonCon=     1 RMS=2.62D-08 Max=3.13D-06 NDo=     1
- LinEq1:  Iter= 30 NonCon=     1 RMS=1.63D-08 Max=2.14D-06 NDo=     1
- LinEq1:  Iter= 31 NonCon=     1 RMS=1.26D-08 Max=1.75D-06 NDo=     1
- LinEq1:  Iter= 32 NonCon=     1 RMS=8.02D-09 Max=8.86D-07 NDo=     1
- LinEq1:  Iter= 33 NonCon=     1 RMS=4.85D-09 Max=4.64D-07 NDo=     1
- LinEq1:  Iter= 34 NonCon=     1 RMS=2.80D-09 Max=3.07D-07 NDo=     1
- LinEq1:  Iter= 35 NonCon=     1 RMS=1.92D-09 Max=1.59D-07 NDo=     1
- LinEq1:  Iter= 36 NonCon=     1 RMS=1.10D-09 Max=1.06D-07 NDo=     1
- LinEq1:  Iter= 37 NonCon=     1 RMS=6.34D-10 Max=5.47D-08 NDo=     1
- LinEq1:  Iter= 38 NonCon=     1 RMS=3.43D-10 Max=3.12D-08 NDo=     1
- LinEq1:  Iter= 39 NonCon=     1 RMS=1.88D-10 Max=1.34D-08 NDo=     1
- LinEq1:  Iter= 40 NonCon=     1 RMS=1.07D-10 Max=9.18D-09 NDo=     1
- LinEq1:  Iter= 41 NonCon=     1 RMS=6.89D-11 Max=7.03D-09 NDo=     1
- LinEq1:  Iter= 42 NonCon=     1 RMS=3.31D-11 Max=3.23D-09 NDo=     1
- LinEq1:  Iter= 43 NonCon=     1 RMS=1.64D-11 Max=1.13D-09 NDo=     1
- LinEq1:  Iter= 44 NonCon=     1 RMS=9.11D-12 Max=1.04D-09 NDo=     1
- LinEq1:  Iter= 45 NonCon=     0 RMS=5.09D-12 Max=7.15D-10 NDo=     1
- Linear equations converged to 1.000D-10 1.000D-09 after    45 iterations.
-          There are     1 degrees of freedom in the 1st order CPHF.  IDoFFX=0 NUNeed=     1.
- End of Minotr F.D. properties file   721 does not exist.
- End of Minotr F.D. properties file   722 does not exist.
- End of Minotr F.D. properties file   788 does not exist.
- PrsmSu:  requested number of processors reduced to:   1 ShMem   1 Linda.
- Symmetrizing basis deriv contribution to polar:
- IMax=3 JMax=2 DiffMx= 0.00D+00
- G2DrvN: will do    47 centers at a time, making    3 passes.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN: will do    47 centers at a time, making    3 passes.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN: will do    20 centers at a time, making    7 passes.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- End of G2Drv F.D. properties file   721 does not exist.
- End of G2Drv F.D. properties file   722 does not exist.
- End of G2Drv F.D. properties file   788 does not exist.
-          IDoAtm=11111111111111111111111111111111111111111111111111
-          IDoAtm=11111111111111111111111111111111111111111111111111
-          IDoAtm=11111111111111111111111111111111111111
-          Differentiating once with respect to electric field.
-                with respect to dipole field.
-          Differentiating once with respect to nuclear coordinates.
- CalDSu exits because no D1Ps are significant.
-          There are   417 degrees of freedom in the 1st order CPHF.  IDoFFX=6 NUNeed=   417.
-    417 vectors produced by pass  0 Test12= 2.43D-13 1.00D-09 XBig12= 2.90D+03 4.33D+01.
- AX will form    72 AO Fock derivatives at one time.
-    417 vectors produced by pass  1 Test12= 2.43D-13 1.00D-09 XBig12= 8.36D+02 4.90D+00.
