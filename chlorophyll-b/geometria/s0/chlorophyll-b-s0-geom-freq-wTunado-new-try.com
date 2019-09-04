@@ -1,7 +1,8 @@
-%NProcShared=4
-%Chk=chlorophyll-b-s1-geom-freq-wTunado-new-try.chk
-%Mem=6GB
-#n iop(3/107=0140000000,3/108=0140000000) CAM-B3LYP/6-31G(d,p) Opt Freq=savenormalmodes
+--Link1--
+%NProcShared=20
+%Chk=chlorophyll-b-s1-geom-freq-wTunado-new-try-pm6.chk
+%Mem=30GB
+#p pm6 opt freq=(SaveNormalModes,NoRaman) int=ultrafine
 
  chlorophyll-b-s1-geom-freq-wTunado-new-try
 
@@ -140,4 +141,12 @@ H         -2.88343       -5.59880        3.71726
 H         -1.50597       -4.43727        3.44538
 O        -12.38315        3.57351       -0.69410
 H        -13.29550        2.20561       -1.78801
+
+--Link1--
+
+%NProcShared=20
+%OldChk=chlorophyll-b-s1-geom-freq-wTunado-new-try-pm6.chk
+%Chk=chlorophyll-b-s1-geom-freq-wTunado-new-try-s0.chk
+%Mem=30GB
+#n iop(3/107=0140000000,3/108=0140000000) iop(3/107=0140000000,3/108=0140000000) CAM-B3LYP/6-31G(d,p) Opt=ReadFC Geom=AllCheck Guess=Read Freq=(SaveNormalModes,NoRaman)
 
