@@ -2,9 +2,9 @@
 %NProcShared=20
 %Chk=chlorophyll-b-s1-geom-freq-wTunado-new-try-pm6.chk
 %Mem=30GB
-#p pm6 opt td freq=(SaveNormalModes,NoRaman) int=ultrafine
+#p pm6 opt freq=(SaveNormalModes,NoRaman) int=ultrafine
 
- chlorophyll-b-s0-geom-freq-wTunado-new-try-pm6
+ chlorophyll-b-s1-geom-freq-wTunado-new-try-pm6
 
 0 1
 Mg        -7.15008        0.60335        0.22534
@@ -148,7 +148,9 @@ H        -13.29550        2.20561       -1.78801
 %OldChk=chlorophyll-b-s1-geom-freq-wTunado-new-try-pm6.chk
 %Chk=chlorophyll-b-s1-geom-freq-wTunado-new-try-b3lyp.chk
 %Mem=30GB
-#n iop(3/107=0140000000,3/108=0140000000) iop(3/107=0140000000,3/108=0140000000) CAM-B3LYP/6-31G(d,p) Opt=ReadFC Geom=Checkpoint Freq=(SaveNormalModes,NoRaman) Td
+#n iop(3/107=0140000000,3/108=0140000000) iop(3/107=0140000000,3/108=0140000000) CAM-B3LYP/6-31G(d,p) Opt=ReadFC Geom=Checkpoint Guess=Read Freq=(SaveNormalModes,NoRaman) Td
 
 chlorophyll-b-s0-geom-freq-wTunado-new-try-b3lyp
+
+0 1
 
