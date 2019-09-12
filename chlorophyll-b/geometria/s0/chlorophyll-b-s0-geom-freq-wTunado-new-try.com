@@ -148,7 +148,8 @@ H        -13.29550        2.20561       -1.78801
 %OldChk=chlorophyll-b-s0-geom-freq-wTunado-new-try-pm6.chk
 %Chk=chlorophyll-b-s0-geom-freq-wTunado-new-try-b3lyp.chk
 %Mem=30GB
-#n iop(3/107=0140000000,3/108=0140000000) iop(3/107=0140000000,3/108=0140000000) CAM-B3LYP/6-31G(d,p) Opt=ReadFC Geom=Checkpoint Freq=(SaveNormalModes,NoRaman)
+#n iop(3/107=0140000000,3/108=0140000000) iop(3/107=0140000000,3/108=0140000000) CAM-B3LYP/6-31G(d,p) Opt=ReadFC Geom=AllCheck Guess=Read Freq=(SaveNormalModes,NoRaman)
 
 chlorophyll-b-s0-geom-freq-wTunado-new-try-b3lyp
 
+0 1
