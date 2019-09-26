@@ -1,7 +1,7 @@
-%NProcShared=7
+%NProcShared=8
 %Chk=dihydrobiliverdin-s1-geom-freq-new-try-pm6.chk
-%Mem=12GB
-#p pm6 opt freq=(SaveNormalModes,NoRaman) int=ultrafine
+%Mem=13GB
+#p pm6 opt=(Restart) td freq=(Restart,SaveNormalModes,NoRaman) int=ultrafine
 
  dihydrobiliverdin-s1-geom-freq-new-try-pm6.com
 
@@ -88,10 +88,11 @@ H         -1.24527        7.69963       -1.13778
 
 --Link1--
 
-%NProcShared=7
+%NProcShared=8
 %OldChk=dihydrobiliverdin-s1-geom-freq-new-try-pm6.chk
 %Chk=dihydrobiliverdin-s1-geom-freq-new-try-b3lyp.chk
 %Mem=12GB
-#n B3LYP/SVP Opt=ReadFC Geom=Checkpoint Guess=Read Freq=(SaveNormalModes,NoRaman) Td
+#n B3LYP/SVP Opt=(Restart,ReadFC) Geom=AllCheck Guess=Read Freq=(Restart,SaveNormalModes,NoRaman) Td
 
  dihydrobiliverdin-s1-geom-freq-new-try-b3lyp.com
+
