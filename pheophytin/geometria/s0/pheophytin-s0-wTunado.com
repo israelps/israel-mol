@@ -1,5 +1,5 @@
 --Link1--
-%NProcShared=20
+%CPU=0-19
 %Chk=pheophytin-s0-wTunado-pm6.chk
 %Mem=30GB
 #p pm6 opt freq=(SaveNormalModes,NoRaman) int=ultrafine
@@ -148,7 +148,7 @@ H          7.05600        0.66400       -0.26400
 
 --Link1--
 
-%NProcShared=20
+%CPU-0-19
 %OldChk=pheophytin-s0-wTunado-pm6.chk
 %Chk=pheophytin-s0-wTunado-b3lyp.chk
 %Mem=30GB
