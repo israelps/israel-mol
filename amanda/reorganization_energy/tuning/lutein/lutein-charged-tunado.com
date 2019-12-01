@@ -3,7 +3,7 @@
 %Chk=lutein-charged-tunado.chk
 # wB97XD/Def2TZVP iop(3/107=0112500000,3/108=0112500000) opt
 
-lutein-charged-tunado.com
+lutein-charged-tunado
 
 1 2
 O        -13.90308       -2.31631        0.84430
