@@ -1,10 +1,11 @@
 %CPU=0-6
 %Mem=7GB
+%Chk=lutein-charged-tunado.chk
 # wB97XD/Def2TZVP iop(3/107=0112500000,3/108=0112500000) opt
 
 lutein-charged-tunado.com
 
-0 1
+1 2
 O        -13.90308       -2.31631        0.84430
 O         14.70289        0.94212        0.70087
 C        -11.77578        0.11612        1.29669
@@ -115,4 +116,3 @@ H         -0.21205       -0.40071       -0.88894
 lutein-charged-tunado-sp
 
 0 1
-
